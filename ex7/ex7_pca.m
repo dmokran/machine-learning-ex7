@@ -111,7 +111,7 @@ fprintf('\nLoading face dataset.\n\n');
 
 %  Load Face dataset
 load ('ex7faces.mat')
-
+keyboard
 %  Display the first 100 faces in the dataset
 displayData(X(1:100, :));
 
@@ -174,7 +174,7 @@ subplot(1, 2, 2);
 displayData(X_rec(1:100,:));
 title('Recovered faces');
 axis square;
-
+keyboard
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 
